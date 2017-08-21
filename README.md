@@ -44,6 +44,14 @@ It can either be given a url of an existing Reddit post to crawl and award
 This Python program requires the [PRAW api library](https://github.com/praw-dev/praw)
 to be installed before running.
 
+With the Reddit account that the bot will use go to Preferences -> Apps and create an
+app.  Pick any name, choose `script`, and set the redirect url to `http://localhost`.
+Description and about url can be blank.
+
+Rename `praw.ini.example` to `praw.ini`.  In `praw.ini` add your client id and client
+secret from the app you just created.  Client id is the id underneath the name of the
+app.  Client secret is labeled.
+
 A keyfile must be created before the bot can be run. This file consists of
 a list of prizes (whether it be a product key, password, or something else),
 one per line.
