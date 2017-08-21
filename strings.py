@@ -29,14 +29,14 @@ first-serve basis, comment now before all the prizes are gone!."""
 #   {wait}: Replaced with the wait time, humanized (eg. "30 minutes")
 #   {utc}: Replaced with the exact UTC time that the bot will begin
 #     distributing prizes.
-random_rule = """Prizes will be given out randomly after a 
+random_rule = """Prizes will be given out randomly after a
 period of {wait} minutes (at {utc}). There is no guarantee that prizes
 will be available once that time passes."""
 
 
 what_is_this = """This contest is being managed by a bot.
 To get him to cater at your next giveaway, please visit the
-[Github page](https://github.com/nemec/reddit-giveaway-bot)!"""
+[Github page](https://github.com/t-r-a-g-e-d-y/reddit-giveaway-bot)!"""
 
 
 # The title of the pm that winners will receive.
