@@ -1,0 +1,7 @@
+[DEFAULT]
+redirect_uri=http://localhost
+
+# Your application credentials here
+client_id=
+client_secret=
+
